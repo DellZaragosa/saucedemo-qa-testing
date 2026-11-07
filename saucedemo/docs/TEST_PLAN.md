@@ -118,8 +118,8 @@ Priority (High / Medium / Low) states how soon a fix is wanted. Severity measure
 ## 15. Schedule
 | Activity | Target date |
 |---|---|
-| Test planning | [date] |
-| Test case design | [date] |
-| Smoke execution | [date] |
-| Full execution and defect logging | [date] |
-| Reporting | [date] |
+| Test planning | 7 Nov 2026 |
+| Test case design | 7 Nov 2026 |
+| Smoke execution | 9 Nov 2026 |
+| Full execution and defect logging | 10-16 Nov 2026 |
+| Reporting | 17 Nov 2026 |
