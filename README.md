@@ -2,7 +2,7 @@
 
 Manual QA project for the SauceDemo e-commerce site (https://www.saucedemo.com): a test plan, 56 designed test cases (smoke, negative, boundary) and documented defects.
 
-**Status:** In progress. 20 of 56 test cases executed, currently all passed (Smoke suite and the Login module). Remaining modules are under way.
+**Status:** In progress. 27 of 56 test cases executed, currently all passed (Smoke suite, Login and the Product list module). Remaining modules are under way.
 
 ## What's inside
 
