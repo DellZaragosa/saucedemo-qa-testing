@@ -2,7 +2,7 @@
 
 Manual QA project for the SauceDemo e-commerce site (https://www.saucedemo.com): a test plan, 56 designed test cases (smoke, negative, boundary) and documented defects.
 
-**Status:** In progress. 38 of 56 test cases executed, 4 defects logged. Checkout and Navigation modules are still to run.
+**Status:** In progress. 51 of 56 test cases executed, 5 defects logged. Only the Navigation module is still to run.
 
 ## What's inside
 
@@ -24,9 +24,9 @@ Login and logout, product list and sorting, cart, checkout, and menu/footer navi
 | Login | 15 | 15 | 15 | 0 |
 | Product list | 10 | 10 | 10 | 0 |
 | Cart | 12 | 12 | 10 | 2 |
-| Checkout | 14 | 1 | 1 | 0 |
+| Checkout | 14 | 14 | 13 | 1 |
 | Navigation | 5 | 0 | 0 | 0 |
-| **Total** | **56** | **38** | **36** | **2** |
+| **Total** | **56** | **51** | **48** | **3** |
 
 The smoke suite (9 cases) has been executed, and all 9 passed.
 
@@ -38,6 +38,7 @@ The smoke suite (9 cases) has been executed, and all 9 passed.
 | [BUG-002](bug-reports/BUG-002.md) | Three products cannot be added to the cart as problem_user | Major | Medium |
 | [BUG-003](bug-reports/BUG-003.md) | Remove button on the Products page does not work as problem_user | Major | Medium |
 | [BUG-004](bug-reports/BUG-004.md) | All products show the same incorrect image as problem_user | Minor | High |
+| [BUG-005](bug-reports/BUG-005.md) | Name fields accept digits and symbols | Minor | Low |
 
 ## Approach
 
