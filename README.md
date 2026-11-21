@@ -11,14 +11,14 @@ Manual QA project for the SauceDemo e-commerce site (https://www.saucedemo.com):
 | [`docs/`](docs) | [Test plan](docs/TEST_PLAN.md) |
 | [`test-cases/`](test-cases) | [Test cases and execution results](test-cases/saucedemo-test-cases.xlsx) |
 | [`bug-reports/`](bug-reports) | One markdown file per defect |
-| [`evidences/`](evidences) | Screenshots supporting the bug reports |
+| [`evidences/`](evidences) | Screenshots supporting the bug reports and the Jira board |
 
 ## Scope
 
 - Login and logout, product list and sorting, cart, checkout, and menu/footer navigation. See the test plan for what is out of scope.
 - The problem_user account is a demo account built to exhibit defects, and was used for exploratory testing.
 
-## Results so far
+## Results
 
 | Module | Test cases | Executed | Passed | Failed |
 |---|---|---|---|---|
@@ -60,15 +60,21 @@ The 9 smoke cases, run first on every build. Full results for all 56 cases are i
 
 Four defects came from failed test cases (BUG-001, 002, 005 and 006). BUG-003 and BUG-004 were found by exploratory testing with problem_user.
 
+Defects are also tracked in Jira (project: SauceDemo QA).
+
+![Jira board](evidences/jira-board.png)
+
+BUG-001 (Retest) and BUG-004 (In Progress) were moved only to demonstrate the workflow. SauceDemo is a demo site, so no fixes are expected and all six defects remain open.
+
 ## Approach
 
 - **Techniques:** black-box testing (equivalence partitioning and boundary value analysis on the login and checkout forms) and experience-based testing (error guessing and exploratory testing)
-- **Test types:** smoke, functional, negative, boundary, regression, exploratory
+- **Test types:** smoke, functional, negative, boundary, exploratory
 - **Process:** run the smoke suite first, execute the remaining cases module by module, log each defect with steps and evidence, then summarize results
 
 ## Tools
 
-Git and GitHub · VS Code · Chrome DevTools · Microsoft Excel / Google Sheets
+Git and GitHub · VS Code · Chrome DevTools · Jira (bug tracking) · Microsoft Excel / Google Sheets
 
 ## Next
 
